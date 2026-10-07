@@ -1,0 +1,42 @@
+MEETING: Project Meridian - Internal Weekly Status
+DATE: 2026-09-01
+ATTENDEES: Ritika Sen (Engagement Manager, Delivery); Arjun Mehta (Technical Lead, Delivery); Kavya Iyer (QA Lead, Delivery); Sameer Bose (Data Engineer, Delivery)
+---
+[00:00:05] Ritika Sen (Engagement Manager): Morning all. Quick one today. Did anyone catch the match last night?
+[00:00:12] Arjun Mehta (Technical Lead): Only the last ten overs. Painful end.
+[00:00:20] Kavya Iyer (QA Lead): Don't start, I had it on in the background while reviewing test cases.
+[00:00:28] Sameer Bose (Data Engineer): At least we won something this week. Right, should we get started?
+[00:00:35] Ritika Sen (Engagement Manager): Yes, let's go. Arjun, where are we on M2, the ingestion layer?
+[00:00:46] Arjun Mehta (Technical Lead): On track for the twelfth of September. Eleven of fourteen pipelines are built and unit tested. The remaining three are straightforward joins, Sameer has them in progress.
+[00:01:02] Sameer Bose (Data Engineer): Correct. Two should be done by Wednesday, one by Friday at the latest.
+[00:01:12] Ritika Sen (Engagement Manager): Good. Any blockers I need to know about?
+[00:01:18] Arjun Mehta (Technical Lead): One. We still do not have firewall access to the POS replica database. Tom on the client side owns that. He said he would have it done by Friday the fifth of September.
+[00:01:34] Ritika Sen (Engagement Manager): Okay. I will log it as a blocker in the RAID log with Tom as owner and the fifth as the due date. I will chase him on Wednesday if nothing has moved.
+[00:01:48] Sameer Bose (Data Engineer): Without that access we cannot run end-to-end validation on the last three pipelines, so it is on the critical path.
+[00:01:58] Arjun Mehta (Technical Lead): Correct, but we have a workaround using the synthetic replica for now. As long as we get the real credentials by the ninth we are still fine for the twelfth.
+[00:02:12] Ritika Sen (Engagement Manager): Noted. I will also flag that the due date for Tom is firm and document the dependency.
+[00:02:22] Kavya Iyer (QA Lead): For the record, and this is good news, Laura's team signed the Phase 1 acceptance certificate on Thursday last week. It is in the shared drive under Client Sign-offs, dated twenty-eighth August.
+[00:02:38] Ritika Sen (Engagement Manager): Excellent news. Formal sign-off, no conditions, correct?
+[00:02:44] Kavya Iyer (QA Lead): Yes. No conditions. Full acceptance of the Phase 1 deliverables.
+[00:02:52] Ritika Sen (Engagement Manager): Perfect. I will capture that in the status report. That clears Phase 1 completely from our outstanding items.
+[00:03:02] Arjun Mehta (Technical Lead): Good. Means we can close those test cases too.
+[00:03:10] Ritika Sen (Engagement Manager): Kavya, quality picture for this week?
+[00:03:17] Kavya Iyer (QA Lead): We are running integration tests on the completed pipelines. Currently four open defects, all minor, all owned and with fix dates this week. No critical defects. Trend is clean.
+[00:03:32] Ritika Sen (Engagement Manager): That is consistent with what I expected at this stage. Keep the trend going.
+[00:03:40] Kavya Iyer (QA Lead): Will do.
+[00:03:47] Ritika Sen (Engagement Manager): RAID log. I reviewed it this morning. Nothing new apart from the firewall blocker I just logged. Risk register is current. No escalations outstanding.
+[00:04:02] Sameer Bose (Data Engineer): Capacity-wise we are all fine. All four of us are fully allocated to Meridian through October. No holidays planned in the next four weeks.
+[00:04:14] Ritika Sen (Engagement Manager): Good. Forecast is still holding. We have not revised the plan since baselined. M2 on the twelfth, M3 UAT start on the twenty-second of September, M4 go-live thirtieth of October. All on baseline.
+[00:04:32] Arjun Mehta (Technical Lead): I am comfortable with those dates as long as the firewall issue resolves on schedule.
+[00:04:42] Ritika Sen (Engagement Manager): Agreed. That is the one dependency to watch. Sameer, anything on the data side I have missed?
+[00:04:51] Sameer Bose (Data Engineer): Not really. The loyalty data schema we got from Tom last week is a bit unusual. The date fields are stored as strings rather than ISO timestamps, so I have added a normalisation step. No impact on timeline.
+[00:05:06] Ritika Sen (Engagement Manager): Good catch. Document that in the technical notes.
+[00:05:13] Arjun Mehta (Technical Lead): Already done.
+[00:05:18] Ritika Sen (Engagement Manager): Right. AOB?
+[00:05:22] Kavya Iyer (QA Lead): Nothing from me.
+[00:05:25] Sameer Bose (Data Engineer): Nothing.
+[00:05:28] Arjun Mehta (Technical Lead): One small thing. The client IT team sent us their test environment credentials last night. That will save a step when we get firewall access.
+[00:05:40] Ritika Sen (Engagement Manager): Great. Send those to me so I can file them securely.
+[00:05:46] Arjun Mehta (Technical Lead): Done.
+[00:05:49] Ritika Sen (Engagement Manager): Okay. Same time next week. Good work everyone.
+[00:05:55] All: Thanks. Bye.

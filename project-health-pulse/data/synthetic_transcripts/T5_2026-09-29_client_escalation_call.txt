@@ -1,0 +1,39 @@
+MEETING: Project Meridian - Client Escalation Call
+DATE: 2026-09-29
+ATTENDEES: Ritika Sen (Engagement Manager, Delivery); Arjun Mehta (Technical Lead, Delivery); Kavya Iyer (QA Lead, Delivery); Laura Chen (Client Programme Director, Northwind Retail); Tom Alvarez (Client IT Manager, Northwind Retail)
+---
+[00:00:07] Laura Chen (Client Programme Director): Ritika, I requested this call because I am not satisfied with where we are. I want straight answers.
+[00:00:16] Ritika Sen (Engagement Manager): Laura, I understand completely. I will be straight with you.
+[00:00:22] Laura Chen (Client Programme Director): M2 was originally due on the twelfth of September. Then it moved to the twenty-sixth. Today is the twenty-ninth and I am told it is still not delivered. What is the new date?
+[00:00:36] Ritika Sen (Engagement Manager): M2 has not been delivered. I do not have a committed new date to give you today. I want to explain why before you respond to that.
+[00:00:47] Laura Chen (Client Programme Director): Please do.
+[00:00:50] Ritika Sen (Engagement Manager): We lost our primary data engineer, Sameer Bose, who resigned. His last day is Saturday. The backfill we requested has not been confirmed by our resourcing team. Arjun has been covering both tech lead and data engineering work, which is not a sustainable position. The remaining M2 work requires the data engineering expertise Sameer was providing.
+[00:01:16] Laura Chen (Client Programme Director): This is the first I am hearing about a staffing change of this significance.
+[00:01:22] Ritika Sen (Engagement Manager): I owe you an apology for that. I was managing it internally with the expectation of a quick resolution. I should have raised it to you sooner. I am raising it now and I am also raising it formally to the steering committee this week, which is what I should have done immediately.
+[00:01:40] Laura Chen (Client Programme Director): This is a material risk to the project. It should have been in the steering committee from the moment it happened.
+[00:01:48] Ritika Sen (Engagement Manager): You are correct. I am committing to raise the staffing risk to the steering committee this week.
+[00:01:55] Tom Alvarez (Client IT Manager): What is the status of the critical defects? We had three critical open as of last week.
+[00:02:04] Kavya Iyer (QA Lead): The three critical defects are still open. We are past the five-day SLA. The fix for the timezone aggregation bug is written and in review. However, Arjun is the only person who can review it and he has been tied up on M2 work.
+[00:02:22] Laura Chen (Client Programme Director): So the critical defects have breached their SLA and they are still open.
+[00:02:28] Kavya Iyer (QA Lead): Yes. That is accurate.
+[00:02:32] Laura Chen (Client Programme Director): And the overall defect count?
+[00:02:35] Kavya Iyer (QA Lead): We have seventeen open in total. We closed two non-critical ones this week. The three critical are included in the seventeen.
+[00:02:45] Laura Chen (Client Programme Director): Ritika, I have to be honest with you. My confidence in this project has been shaken. We have a milestone that has missed its date twice with no new committed date. We have critical defects breaching SLA. We have a staffing change I was not informed about. This is not the project I agreed to sponsor.
+[00:03:08] Ritika Sen (Engagement Manager): I hear you, Laura, and I do not disagree with your assessment of where we are. I want to propose a recovery approach.
+[00:03:18] Laura Chen (Client Programme Director): Please.
+[00:03:21] Ritika Sen (Engagement Manager): First, I am requesting emergency resourcing of a replacement data engineer by the second of October, with escalation to my senior leadership today if needed. Second, Arjun will stop all M2 pipeline work today and spend tomorrow reviewing and approving the critical defect fixes. Third, I will have a full revised plan, including a committed M2 date, by the fourth of October. Fourth, I will present that plan to you and the steering committee in a session I will arrange by end of week.
+[00:04:00] Laura Chen (Client Programme Director): I want the revised plan in writing before the steering committee session.
+[00:04:06] Ritika Sen (Engagement Manager): You will have it.
+[00:04:09] Arjun Mehta (Technical Lead): For what it is worth, the technical work is well understood. The delays are resourcing-driven, not complexity-driven. Once we have a second engineer, I can give you a confident date.
+[00:04:24] Laura Chen (Client Programme Director): Tom, anything from your side?
+[00:04:28] Tom Alvarez (Client IT Manager): I am concerned about the UAT timeline. If M2 keeps slipping, we are risking the go-live date and our seasonal trading period starts in mid-November. We cannot slip into that.
+[00:04:42] Ritika Sen (Engagement Manager): Noted. That constraint is in our plan and I take it seriously. The fourth of October plan will address that boundary explicitly.
+[00:04:52] Laura Chen (Client Programme Director): No sign-off has been requested in this period and none will be given until the defect picture improves materially.
+[00:05:01] Ritika Sen (Engagement Manager): Understood.
+[00:05:04] Laura Chen (Client Programme Director): I want weekly written status updates from now on, not just the calls. Sent to me and Tom by Monday each week.
+[00:05:14] Ritika Sen (Engagement Manager): Agreed. Starting this Monday.
+[00:05:18] Laura Chen (Client Programme Director): I am going to stay engaged on this. I want to see improvement quickly. Ritika, I still believe your team can deliver, but we need to see a different trajectory from here.
+[00:05:31] Ritika Sen (Engagement Manager): We will deliver. Thank you for being direct with us.
+[00:05:36] Tom Alvarez (Client IT Manager): Let us hope so.
+[00:05:39] Laura Chen (Client Programme Director): Same. Thank you all.
+[00:05:42] All: Thank you. Goodbye.

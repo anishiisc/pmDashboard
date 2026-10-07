@@ -1,0 +1,41 @@
+MEETING: Project Meridian - Client Weekly Sync
+DATE: 2026-09-08
+ATTENDEES: Ritika Sen (Engagement Manager, Delivery); Arjun Mehta (Technical Lead, Delivery); Kavya Iyer (QA Lead, Delivery); Laura Chen (Client Programme Director, Northwind Retail); Tom Alvarez (Client IT Manager, Northwind Retail)
+---
+[00:00:10] Ritika Sen (Engagement Manager): Good morning everyone. Thanks for joining. Tom, Laura, great to have you both.
+[00:00:18] Laura Chen (Client Programme Director): Morning. Looking forward to the update.
+[00:00:23] Tom Alvarez (Client IT Manager): Morning team.
+[00:00:27] Ritika Sen (Engagement Manager): Let me start with blockers since we had one open from last week. Tom, the firewall access for the POS replica. That was due last Friday the fifth.
+[00:00:40] Tom Alvarez (Client IT Manager): Yes, done. Credentials were pushed to your team on Thursday evening. I confirmed with Arjun by email.
+[00:00:49] Arjun Mehta (Technical Lead): Confirmed. We received the credentials Thursday at six-fifteen PM, tested connectivity Friday morning, all good. The blocker is cleared.
+[00:01:02] Ritika Sen (Engagement Manager): Excellent. That was identified early, owned by Tom, and cleared within the agreed window. I will close it in the RAID log today.
+[00:01:14] Laura Chen (Client Programme Director): Good to hear. That was a concern of mine last week.
+[00:01:20] Ritika Sen (Engagement Manager): Understood. We had a workaround in place so it did not affect progress, but the live connection is essential for final validation.
+[00:01:30] Arjun Mehta (Technical Lead): We were able to run end-to-end validation on the remaining three pipelines over the weekend. All fourteen pipelines are now complete and passing integration tests.
+[00:01:44] Laura Chen (Client Programme Director): That is great progress. Where does that put M2?
+[00:01:50] Arjun Mehta (Technical Lead): Still on track for the twelfth of September. We have some buffer.
+[00:01:57] Laura Chen (Client Programme Director): Wonderful. I need to report that to our steering committee on the fifteenth.
+[00:02:06] Ritika Sen (Engagement Manager): Noted. We will have a full status pack ready for you by the fourteenth.
+[00:02:14] Kavya Iyer (QA Lead): Quality update. We have six open defects currently. None are critical. The trend is positive, we had nine open two weeks ago, down to six now. All six have owners and fix dates within this week.
+[00:02:32] Laura Chen (Client Programme Director): Six with none critical. That sounds healthy at this stage.
+[00:02:38] Kavya Iyer (QA Lead): Yes, I am comfortable with it. We are on track for UAT starting on the twenty-second as planned.
+[00:02:47] Laura Chen (Client Programme Director): Speaking of UAT, we are planning to involve our merchandising team in addition to IT. Is that fine?
+[00:02:58] Ritika Sen (Engagement Manager): Absolutely. The more business testers the better for sign-off. We will share the UAT plan and entry criteria by end of this week.
+[00:03:09] Tom Alvarez (Client IT Manager): I will make sure they get the environment access they need.
+[00:03:14] Laura Chen (Client Programme Director): One more thing I wanted to raise. We have been talking internally about the loyalty data feed. We would like you to also incorporate the loyalty transaction data into the platform, alongside the POS data.
+[00:03:30] Ritika Sen (Engagement Manager): That is a new data source. It is not in the current scope baseline.
+[00:03:37] Laura Chen (Client Programme Director): I know, but it would make the platform significantly more useful. Could we just absorb it?
+[00:03:46] Ritika Sen (Engagement Manager): I understand the business case, Laura, and I am supportive of exploring it. However, any change to the ingestion scope needs to go through a formal change request. I will raise a change request this week for the loyalty feed, get an impact assessment from Arjun on timeline and effort, and bring it to you before any work starts.
+[00:04:08] Arjun Mehta (Technical Lead): Sensible. We cannot start work on it until the CR is approved, but I can do a quick scoping estimate this week.
+[00:04:18] Laura Chen (Client Programme Director): That is fair. I appreciate the process. Please do raise it quickly.
+[00:04:26] Ritika Sen (Engagement Manager): Will do. CR raised this week, impact assessment by end of next week.
+[00:04:33] Tom Alvarez (Client IT Manager): The loyalty data is in our CRM system. I can get Arjun the schema.
+[00:04:40] Arjun Mehta (Technical Lead): That would be helpful. Can you send it today?
+[00:04:44] Tom Alvarez (Client IT Manager): Yes.
+[00:04:47] Ritika Sen (Engagement Manager): Great. Laura, overall how are you feeling about progress?
+[00:04:53] Laura Chen (Client Programme Director): I am genuinely positive. The team has been responsive, the Phase 1 sign-off went smoothly, and the numbers look good. Keep it up.
+[00:05:05] Ritika Sen (Engagement Manager): Thank you. We are working hard to keep the momentum. Any other items?
+[00:05:12] Tom Alvarez (Client IT Manager): Nothing from me.
+[00:05:15] Laura Chen (Client Programme Director): Nothing more from me. Good meeting.
+[00:05:19] Ritika Sen (Engagement Manager): Thank you both. Same time next week.
+[00:05:23] All: Thanks. Bye.

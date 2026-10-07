@@ -1,0 +1,86 @@
+{
+  "rating_scale": ["Good", "Medium", "Poor", "Not Evidenced"],
+  "pillars": [
+    {
+      "id": "P1",
+      "name": "Schedule and Delivery",
+      "items": [
+        {
+          "id": "P1.1",
+          "name": "Milestone adherence",
+          "good": "Milestones met or projected to be met on baseline dates; any slip under one week with no downstream impact.",
+          "medium": "One milestone slipped one to three weeks, or a slip is forecast, with a recovery plan agreed.",
+          "poor": "Slip over three weeks, multiple milestones slipped, or a committed client date missed or at risk without a plan."
+        },
+        {
+          "id": "P1.2",
+          "name": "Dependency and blocker management",
+          "good": "Blockers identified early, owned, and cleared within the agreed window.",
+          "medium": "Open blockers with named owners and dates, some ageing beyond one sprint.",
+          "poor": "Blockers unowned, recurring across meetings, or dependent on parties not engaged."
+        },
+        {
+          "id": "P1.3",
+          "name": "Forecast reliability",
+          "good": "Burn and velocity consistent with plan; estimates have held across recent periods.",
+          "medium": "Forecast revised once with reasons understood.",
+          "poor": "Repeated re-forecasting, unknown effort to complete, or forecast contradicted by later evidence."
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Scope and Quality",
+      "items": [
+        {
+          "id": "P2.1",
+          "name": "Scope stability and change control",
+          "good": "Scope baselined; changes go through formal change requests and are approved before work starts.",
+          "medium": "Pending change requests or informal requests being absorbed, but tracked.",
+          "poor": "Untracked scope growth, work started on unapproved changes, or disputed scope."
+        },
+        {
+          "id": "P2.2",
+          "name": "Deliverable quality and defect trend",
+          "good": "Defects within agreed thresholds and trending down; no critical defects open.",
+          "medium": "Defect count elevated or flat, with a remediation plan; no unresolved critical defects past SLA.",
+          "poor": "Critical defects open past SLA, defect trend rising, or rework impacting schedule."
+        },
+        {
+          "id": "P2.3",
+          "name": "Client acceptance and sign-off",
+          "good": "Deliverables accepted on schedule with formal sign-off.",
+          "medium": "Sign-off delayed for administrative reasons or with minor conditions.",
+          "poor": "Deliverables rejected, sign-off withheld for quality or scope reasons."
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Stakeholders and Team",
+      "items": [
+        {
+          "id": "P3.1",
+          "name": "Client engagement and sentiment",
+          "good": "Client stakeholders attend, respond, and express confidence.",
+          "medium": "Mixed signals, reduced attendance, or isolated concerns raised.",
+          "poor": "Explicit dissatisfaction, escalation by the client, or disengagement of key sponsors."
+        },
+        {
+          "id": "P3.2",
+          "name": "Team capacity and staffing stability",
+          "good": "Team staffed to plan; no unplanned attrition; workload sustainable.",
+          "medium": "Gaps being backfilled, overtime reported, or a single key-person risk.",
+          "poor": "Unplanned exits of critical roles without backfill, or sustained overload affecting delivery."
+        },
+        {
+          "id": "P3.3",
+          "name": "Risk and escalation governance",
+          "good": "RAID log maintained and reviewed; escalations raised promptly to the right forum.",
+          "medium": "Risks known but log stale, or escalations raised late.",
+          "poor": "Material risks not logged, escalations missed, or governance forums not held."
+        }
+      ]
+    }
+  ]
+}

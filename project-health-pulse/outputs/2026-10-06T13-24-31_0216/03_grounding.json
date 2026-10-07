@@ -1,0 +1,235 @@
+{
+  "items": {
+    "P1.1": {
+      "ungrounded": false,
+      "quotes": [
+        {
+          "ref": "D3:L004",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L003",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L004",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        }
+      ]
+    },
+    "P1.2": {
+      "ungrounded": false,
+      "quotes": [
+        {
+          "ref": "D1:L009",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D1:L010",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D2:L006",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D2:L007",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        }
+      ]
+    },
+    "P1.3": {
+      "ungrounded": false,
+      "quotes": [
+        {
+          "ref": "D1:L025",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D3:L016",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D4:L031",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L004",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        }
+      ]
+    },
+    "P2.1": {
+      "ungrounded": false,
+      "quotes": [
+        {
+          "ref": "D2:L024",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D3:L008",
+          "grounded": false,
+          "similarity": 58.2,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D3:L018",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        }
+      ]
+    },
+    "P2.2": {
+      "ungrounded": false,
+      "quotes": [
+        {
+          "ref": "D4:L017",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L012",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L016",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D1:L020",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        }
+      ]
+    },
+    "P2.3": {
+      "ungrounded": false,
+      "quotes": [
+        {
+          "ref": "D1:L014",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D1:L016",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L027",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        }
+      ]
+    },
+    "P3.1": {
+      "ungrounded": false,
+      "quotes": [
+        {
+          "ref": "D2:L032",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L001",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L017",
+          "grounded": true,
+          "similarity": 86.3,
+          "citation_corrected": false
+        }
+      ]
+    },
+    "P3.2": {
+      "ungrounded": false,
+      "quotes": [
+        {
+          "ref": "D4:L010",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D4:L011",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L006",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D4:L025",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        }
+      ]
+    },
+    "P3.3": {
+      "ungrounded": false,
+      "quotes": [
+        {
+          "ref": "D1:L023",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L009",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        },
+        {
+          "ref": "D5:L010",
+          "grounded": true,
+          "similarity": 100.0,
+          "citation_corrected": false
+        }
+      ]
+    }
+  }
+}

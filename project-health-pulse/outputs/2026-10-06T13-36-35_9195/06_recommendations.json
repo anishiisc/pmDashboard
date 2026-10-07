@@ -1,0 +1,132 @@
+{
+  "pillars": [
+    {
+      "pillar_id": "P1",
+      "suggested_commentary": "Schedule and Delivery is rated Poor. M2 milestone slipped from 12 September to 26 September, then missed the revised date; as of 29 September we have no committed delivery date. Root cause was four days spent on unapproved loyalty feed work. Our primary data engineer Sameer Bose resigned with last day 3 October; backfill unconfirmed. We are requesting emergency backfill by 2 October and have stopped M2 work to prioritise critical defect fixes. Revised plan with committed M2 date due 4 October. Forecast reliability deteriorated: revised once on 15 September, but by 22 September tech lead could not give confident date. Go-live 30 October remains target but at risk.",
+      "recommendations": [
+        {
+          "action": "Secure replacement data engineer by 2 October with emergency escalation to senior leadership.",
+          "owner_role": "Engagement Manager",
+          "urgency": "immediate",
+          "item_ids": [
+            "P1.1",
+            "P1.2",
+            "P1.3"
+          ]
+        },
+        {
+          "action": "Deliver revised M2 plan with committed date and resource allocation by 4 October.",
+          "owner_role": "Technical Lead",
+          "urgency": "immediate",
+          "item_ids": [
+            "P1.1",
+            "P1.3"
+          ]
+        },
+        {
+          "action": "Complete knowledge transfer documentation from departing data engineer before 3 October.",
+          "owner_role": "Data Engineer",
+          "urgency": "immediate",
+          "item_ids": [
+            "P1.2"
+          ]
+        },
+        {
+          "action": "Implement daily sprint reviews to prevent scope drift and monitor backfill integration.",
+          "owner_role": "Engagement Manager",
+          "urgency": "this_month",
+          "item_ids": [
+            "P1.1",
+            "P1.3"
+          ]
+        }
+      ],
+      "manager_prompts": [
+        "Has the emergency backfill request been approved by resourcing, and what is the confirmed start date?",
+        "What is the revised M2 delivery date and what confidence level does the tech lead assign to it?",
+        "What contingency exists if the new data engineer requires more than two days of ramp-up time?"
+      ]
+    },
+    {
+      "pillar_id": "P2",
+      "suggested_commentary": "Scope and Quality is rated Poor. We started preliminary work on the loyalty feed before change request approval, consuming four days of engineering time on 8–12 September. This was a process failure; all unapproved work stopped. Loyalty CR formally submitted and pending client approval. UAT began 21 September and identified nineteen open defects including three critical defects related to timezone handling in promotional discount aggregation. Critical defects breached five-day SLA on 27 September and remain open on 29 September. Tech lead has written fix but review delayed. Phase 1 accepted 28 August with no conditions. Client stated no further sign-off until defect picture improves materially.",
+      "recommendations": [
+        {
+          "action": "Close all three critical defects by 2 October with regression testing completed and client validation.",
+          "owner_role": "Technical Lead",
+          "urgency": "immediate",
+          "item_ids": [
+            "P2.2"
+          ]
+        },
+        {
+          "action": "Obtain client approval or rejection of loyalty feed change request by 6 October.",
+          "owner_role": "Engagement Manager",
+          "urgency": "this_month",
+          "item_ids": [
+            "P2.1"
+          ]
+        },
+        {
+          "action": "Reduce open defect count to single digits with no critical defects before requesting sign-off.",
+          "owner_role": "QA Lead",
+          "urgency": "this_month",
+          "item_ids": [
+            "P2.2",
+            "P2.3"
+          ]
+        }
+      ],
+      "manager_prompts": [
+        "What is the root cause of the timezone aggregation bug and does it affect other pipelines beyond the three identified?",
+        "If the loyalty feed CR is approved, what is the impact on go-live date given current schedule pressure?",
+        "What quality gate criteria will we use before requesting the next client sign-off?"
+      ]
+    },
+    {
+      "pillar_id": "P3",
+      "suggested_commentary": "Stakeholders and Team is rated Poor. Client sentiment deteriorated sharply. On 8 September Laura Chen expressed genuine confidence; by 29 September she requested escalation call stating confidence was shaken and this was not the project she agreed to sponsor. She cited missed milestones, critical defects breaching SLA, and lack of transparency on staffing. We failed to escalate Sameer's resignation promptly to steering committee. Sameer Bose, primary data engineer on critical path, resigned 22 September with last day 3 October; backfill unconfirmed. Team working unsustainable weekends. RAID log maintained but staffing risk escalated late. Weekly written status updates to Laura and Tom start Monday 30 September.",
+      "recommendations": [
+        {
+          "action": "Present written recovery plan to steering committee by 4 October addressing staffing, schedule, and quality.",
+          "owner_role": "Engagement Manager",
+          "urgency": "immediate",
+          "item_ids": [
+            "P3.1",
+            "P3.3"
+          ]
+        },
+        {
+          "action": "Escalate all material risks to steering committee within 24 hours of identification going forward.",
+          "owner_role": "Engagement Manager",
+          "urgency": "immediate",
+          "item_ids": [
+            "P3.3"
+          ]
+        },
+        {
+          "action": "Assess team workload sustainability and adjust sprint commitments to eliminate weekend work.",
+          "owner_role": "Engagement Manager",
+          "urgency": "this_month",
+          "item_ids": [
+            "P3.2"
+          ]
+        },
+        {
+          "action": "Deliver weekly written status updates to client by Monday each week starting 30 September.",
+          "owner_role": "Engagement Manager",
+          "urgency": "this_month",
+          "item_ids": [
+            "P3.1",
+            "P3.3"
+          ]
+        }
+      ],
+      "manager_prompts": [
+        "What specific actions will rebuild Laura's confidence beyond the recovery plan, and who will own client relationship repair?",
+        "Is there a secondary key-person risk if Arjun is covering both tech lead and data engineering roles long-term?",
+        "What governance process change will prevent late escalation of critical staffing or scope issues in future?"
+      ]
+    }
+  ]
+}

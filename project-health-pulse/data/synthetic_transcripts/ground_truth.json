@@ -1,0 +1,11 @@
+{
+  "P1.1": {"rating": "Poor",   "why": "M2 slipped two weeks then missed again with no committed date (T3, T5)."},
+  "P1.2": {"rating": "Medium", "why": "Firewall blocker cleared on time (T2); backfill dependency open without owner (T4)."},
+  "P1.3": {"rating": "Poor",   "why": "Revised once (T3), then 'unclear' (T4), then no committed date (T5)."},
+  "P2.1": {"rating": "Poor",   "why": "Loyalty feed work started before CR approval and caused slip (T3)."},
+  "P2.2": {"rating": "Poor",   "why": "Defects rose 6 to 19, 3 critical open past SLA (T4, T5); earlier positive trend superseded."},
+  "P2.3": {"rating": "Good",   "why": "Phase 1 formally signed off (T1); no later rejection."},
+  "P3.1": {"rating": "Poor",   "why": "Sponsor escalation, confidence 'shaken' (T5); earlier positivity superseded."},
+  "P3.2": {"rating": "Poor",   "why": "Key engineer resigned, no backfill, weekend working (T4)."},
+  "P3.3": {"rating": "Medium", "why": "RAID maintained (T1, T3) but staffing risk not logged until late (T5)."}
+}

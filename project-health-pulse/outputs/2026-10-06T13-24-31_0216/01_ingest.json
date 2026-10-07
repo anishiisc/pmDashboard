@@ -1,0 +1,44 @@
+{
+  "documents": [
+    {
+      "doc_id": "D1",
+      "filename": "T1_2026-09-01_internal_weekly_status.txt",
+      "date": "2026-09-01",
+      "meeting": "Project Meridian - Internal Weekly Status",
+      "line_count": 39,
+      "warnings": []
+    },
+    {
+      "doc_id": "D2",
+      "filename": "T2_2026-09-08_client_weekly_sync.txt",
+      "date": "2026-09-08",
+      "meeting": "Project Meridian - Client Weekly Sync",
+      "line_count": 38,
+      "warnings": []
+    },
+    {
+      "doc_id": "D3",
+      "filename": "T3_2026-09-15_steering_committee.txt",
+      "date": "2026-09-15",
+      "meeting": "Project Meridian - Steering Committee",
+      "line_count": 32,
+      "warnings": []
+    },
+    {
+      "doc_id": "D4",
+      "filename": "T4_2026-09-22_internal_delivery_standup.txt",
+      "date": "2026-09-22",
+      "meeting": "Project Meridian - Internal Delivery Standup",
+      "line_count": 37,
+      "warnings": []
+    },
+    {
+      "doc_id": "D5",
+      "filename": "T5_2026-09-29_client_escalation_call.txt",
+      "date": "2026-09-29",
+      "meeting": "Project Meridian - Client Escalation Call",
+      "line_count": 36,
+      "warnings": []
+    }
+  ]
+}

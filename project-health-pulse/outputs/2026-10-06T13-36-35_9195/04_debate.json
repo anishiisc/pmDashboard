@@ -1,0 +1,132 @@
+{
+  "challenges": {
+    "challenges": [
+      {
+        "item_id": "P1.1",
+        "stance": "concur",
+        "proposed_rating": null,
+        "failure_modes": [],
+        "counter_evidence": [],
+        "argument": ""
+      },
+      {
+        "item_id": "P1.2",
+        "stance": "challenge",
+        "proposed_rating": "Medium",
+        "failure_modes": [
+          1,
+          2
+        ],
+        "counter_evidence": [
+          {
+            "ref": "D5:L006",
+            "text": "We lost our primary data engineer, Sameer Bose, who resigned. His last day is Saturday. The backfill we requested has not been confirmed by our resourcing team."
+          },
+          {
+            "ref": "D5:L009",
+            "text": "This is a material risk to the project. It should have been in the steering committee from the moment it happened."
+          }
+        ],
+        "argument": "The staffing blocker (Sameer's resignation on 22 Sept, critical path impact) remains unresolved as of 29 Sept with no confirmed backfill. Client confirms this is a material blocker that should have been escalated immediately. This is an open blocker ageing beyond one sprint with named owner but unresolved, meeting Medium not Good."
+      },
+      {
+        "item_id": "P1.3",
+        "stance": "concur",
+        "proposed_rating": null,
+        "failure_modes": [],
+        "counter_evidence": [],
+        "argument": ""
+      },
+      {
+        "item_id": "P2.1",
+        "stance": "concur",
+        "proposed_rating": null,
+        "failure_modes": [],
+        "counter_evidence": [],
+        "argument": ""
+      },
+      {
+        "item_id": "P2.2",
+        "stance": "concur",
+        "proposed_rating": null,
+        "failure_modes": [],
+        "counter_evidence": [],
+        "argument": ""
+      },
+      {
+        "item_id": "P2.3",
+        "stance": "challenge",
+        "proposed_rating": "Medium",
+        "failure_modes": [
+          1,
+          5
+        ],
+        "counter_evidence": [
+          {
+            "ref": "D5:L027",
+            "text": "No sign-off has been requested in this period and none will be given until the defect picture improves materially."
+          }
+        ],
+        "argument": "The client withholds future sign-off for quality reasons, but no deliverable has been rejected and no requested sign-off has been withheld. Phase 1 was accepted formally. The statement is prospective, not a rejection. Sign-off delayed with conditions fits Medium better than Poor which requires actual rejection."
+      },
+      {
+        "item_id": "P3.1",
+        "stance": "concur",
+        "proposed_rating": null,
+        "failure_modes": [],
+        "counter_evidence": [],
+        "argument": ""
+      },
+      {
+        "item_id": "P3.2",
+        "stance": "concur",
+        "proposed_rating": null,
+        "failure_modes": [],
+        "counter_evidence": [],
+        "argument": ""
+      },
+      {
+        "item_id": "P3.3",
+        "stance": "concur",
+        "proposed_rating": null,
+        "failure_modes": [],
+        "counter_evidence": [],
+        "argument": ""
+      }
+    ]
+  },
+  "rebuttals": {
+    "rebuttals": [
+      {
+        "item_id": "P1.2",
+        "response": "concede",
+        "evidence": [
+          {
+            "ref": "D4:L011",
+            "text": "Sameer is our primary data engineer and his departure is on the critical path for M2 and UAT."
+          },
+          {
+            "ref": "D5:L006",
+            "text": "The backfill we requested has not been confirmed by our resourcing team."
+          }
+        ],
+        "argument": "The challenger is correct. The firewall blocker was cleared, but Sameer's resignation on 22 September created a new critical-path blocker. By 29 September the backfill remains unconfirmed. The engagement manager admits the escalation was late. An open blocker with named owner but ageing beyond one sprint fits Medium, not Good."
+      },
+      {
+        "item_id": "P2.3",
+        "response": "rebut",
+        "evidence": [
+          {
+            "ref": "D5:L027",
+            "text": "No sign-off has been requested in this period and none will be given until the defect picture improves materially."
+          },
+          {
+            "ref": "D1:L016",
+            "text": "Yes. No conditions. Full acceptance of the Phase 1 deliverables."
+          }
+        ],
+        "argument": "The client's statement is prospective: no sign-off will be given *until* defects improve. No deliverable has been submitted and rejected. Phase 1 was accepted formally with no conditions. The rubric Poor definition requires deliverables rejected or sign-off withheld for actual submissions. Prospective withholding does not meet that threshold. Poor rating stands."
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Health Pulse</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+
+<header class="app-header">
+  <h1>Project Health Pulse</h1>
+  <div class="prev-run-row">
+    <label for="prev-run-select" style="font-size:12px;color:#666;">Load previous run:</label>
+    <select id="prev-run-select" class="prev-run-select">
+      <option value="">— select —</option>
+    </select>
+  </div>
+</header>
+
+<main class="layout">
+
+  <!-- ── Left panel ─────────────────────────────────────────────── -->
+  <aside class="left-panel">
+
+    <div class="card">
+      <div class="card-title">Transcripts</div>
+      <div class="drop-zone" id="drop-zone">
+        <input type="file" id="file-input" multiple accept=".txt" />
+        Drop .txt files here<br />or <a href="#" id="browse-link">browse&hellip;</a>
+      </div>
+      <div class="file-list" id="file-list"></div>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="submit-btn" disabled>Submit</button>
+        <button class="btn btn-secondary" id="reset-btn">Reset</button>
+      </div>
+    </div>
+
+    <div class="card" id="progress-card" style="display:none;">
+      <div class="card-title">Progress</div>
+      <ul class="progress-list" id="progress-list">
+        <li data-stage="S0_ingest"><span class="step-icon">○</span> Ingest</li>
+        <li data-stage="S1_extract"><span class="step-icon">○</span> Extract</li>
+        <li data-stage="S2_grounding"><span class="step-icon">○</span> Grounding</li>
+        <li data-stage="S3_debate"><span class="step-icon">○</span> Debate</li>
+        <li data-stage="S4_rollup"><span class="step-icon">○</span> Roll-up</li>
+        <li data-stage="S5_recommend"><span class="step-icon">○</span> Recommend</li>
+        <li data-stage="S6_assemble"><span class="step-icon">○</span> Assemble</li>
+      </ul>
+    </div>
+
+  </aside>
+
+  <!-- ── Right panel ─────────────────────────────────────────────── -->
+  <section class="right-panel" id="right-panel">
+    <div id="results-area"></div>
+  </section>
+
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

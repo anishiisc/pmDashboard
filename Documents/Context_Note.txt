@@ -1,0 +1,47 @@
+Context - 
+
+In CEDA / PwC  Teams follow a Project Reporting Framework - Which Access data from several sources and has various metrics in the Dashboard 
+
+A key problem is the low adoption of this dashboard 
+
+Issue relate to less discipline in times filling up the source data which feeds the dashboard to  improper entry or partial entry or incoherent entry.
+
+Identified reasons - For the managers on the ground  the lack of motivation to fill these data although it maybe a once every month activity and may Tak less than 20 mins to fill could be a key cause - The immediate benefit of filling  this dashboard may not be visible to them in terms of project returns 
+
+
+The dashboard has various sections which has numerical figures as well as text data points.
+
+One Section of the dashboard has what is identified as 6 key pillars for delivery which have  about 4 to 5 statements each per pillar - where the respective project manager is supposed to fill up the status for each of those statements like a Red , Green Yellow status label.
+
+Also for each of the pillars , we have a text entry box which the project manager is supposed to fill based on the pillar scores or ratings and this would be like an explanation why  the ratings were provided.
+
+
+Now I need the following - A Wireframe POC Build of this 
+
+Use the below 
+
+1. Define three project health pillars 
+2. Create 3 line topics which relate to each of the pillars 
+3. Have a score rating  Good Medium Poor 
+4. Create some synthetic Meeting Transcripts from which the ratings can be filled etc.
+
+
+Now create a Basic front end which will allow user to inject or upload the transcript via browse - more than one files can be injected.
+
+Design a very Hardened system prompt which will be able to extract a score against each of the line items against each of the pillars .
+
+Have that as a JSON -   Have a second debate or adversial layer which will check or debate that JSON values to ensure that the score is right on a scale of 1 to 10 
+
+Now have a downstream output as follows - The JSON with All the Recommendations per pillar along with suggested Text box entries - which will be used to prompt the manager to fill up
+
+Have a  Basic Front end - which will show case these pillars populated once the suer presses submit button after Ingesting the txt format  transcript files.
+
+Have a Reset button on the GUI as well.
+
+
+Now - Just give me a full Tech Architecture in .md format to create a basic wire frame demo of this with synthetic data and a simple front end - using anthropic API LLM keys.  
+
+The output should also have a folder to store the output JSON which will be also used to populate the GUI with the response
+
+Just provide me a detailed Tech Spec .md file which I can use to code in claude code 
+

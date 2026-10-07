@@ -1,0 +1,5 @@
+{
+  "state": "failed",
+  "stage": null,
+  "message": "Pipeline failed: TypeError: unsupported operand type(s) for +: 'dict' and 'dict'"
+}
